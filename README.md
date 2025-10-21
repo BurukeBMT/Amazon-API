@@ -2,6 +2,8 @@
 
 A simple Express.js API for handling payments using Stripe, designed to work with the Amazon Clone frontend. 🚀
 
+**Repository:** [GitHub](https://github.com/BurukeBMT/Amazon-API.git) 📂
+
 ## ✨ Features
 
 - **💳 Payment Processing**: Create payment intents using Stripe for secure transactions.
@@ -69,10 +71,14 @@ A simple Express.js API for handling payments using Stripe, designed to work wit
 
 This API is intended to be used with the Amazon Clone frontend application. It handles payment processing for orders. 🛒
 
+The API is deployed and available at: **https://amazon-api-0az0.onrender.com** 🌐
+
 ### 📝 Example Request
 ```bash
-curl -X POST "http://localhost:5000/payment/create?total=1000"
+curl -X POST "https://amazon-api-0az0.onrender.com/payment/create?total=1000"
 ```
+
+For local development, use `http://localhost:5000`.
 
 ## 🔐 Environment Variables
 
@@ -89,3 +95,13 @@ curl -X POST "http://localhost:5000/payment/create?total=1000"
 ## 📄 License
 
 This project is licensed under the ISC License. 📜
+
+## 🎓 Educational Purpose
+
+This project is created for educational purposes to demonstrate payment processing with Stripe in test mode. 💳
+
+### 🧪 Test Payment Details
+- **Card Number:** 4242 4242 4242 4242 (Visa)
+- **CVC:** Any 3 digits
+- **Expiration Date:** Any date after today (MM/YY)
+- **Postal Code:** Any valid postal code
